@@ -1,0 +1,54 @@
+body{
+    background-image: url(gif/space4.gif);
+    color: white;
+}
+
+nav{
+    background-color: rgba(0, 10, 54, 0.664);
+    display: inline-block;
+    padding: .5em;
+    position: fixed;
+    top: 0;
+    margin: 1rem;
+    font-family: 'VT323', monospace;
+    
+}
+h1, h2{
+    max-width: 50%;
+    text-align: center;
+    margin: auto; 
+    font-family: 'Press Start 2P', cursive;
+    padding: .5em;
+}
+main{
+   max-width: 50%;
+   text-align: center;
+   margin: auto; 
+   font-family: 'VT323', monospace;
+}
+a{
+margin: 1em;
+color:rgba(0, 218, 255, 1);
+text-decoration: none;
+
+}
+
+a:hover{
+    color:aquamarine;
+}
+
+footer{
+    margin:auto;
+    text-align: center;
+    color:aliceblue;
+    background-color:rgba(0, 10, 54, 0.664);
+    font-family: 'VT323', monospace;
+    font-size: small;
+
+}
+h4{
+    margin: .5em;
+}
+#special{
+    margin:.5em;
+}
