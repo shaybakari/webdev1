@@ -1,0 +1,28 @@
+/* index below*/
+.index-body {
+    color: rgb(195, 218, 2359);
+    background-color: rgb(34, 35, 48) ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+a {
+    text-decoration: none;
+    margin: .5em;
+    color: rgb(108, 109, 158);  
+}
+a:hover{
+    color: antiquewhite;
+}
+/* loading below */
+
+.loading-body{
+    background-color: rgb(34, 35, 48);
+    color: rgb(108, 109, 158); ;
+}
+
+.loading{
+    height: 25px;
+    width: 150px;
+    
+}
+/* waiting below */
