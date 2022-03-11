@@ -17,12 +17,36 @@ a:hover{
 
 .loading-body{
     background-color: rgb(34, 35, 48);
-    color: rgb(108, 109, 158); ;
+    
 }
 
 .loading{
-    height: 25px;
-    width: 150px;
-    
+    max-width: 75%;
+    background: rgb(34,35,48);
+    animation-name: loading;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
 }
+
+#text1{
+    padding: .5em;
+    color:antiquewhite;
+}
+
+@keyframes loading {
+    0% {
+        background-color: rgb(34, 35, 48);
+        width: 0%;
+    }
+    50%{
+        width: 50%;
+        background-color: rgb(108, 109, 158);
+    }
+    100% {
+        background-color: rgba(0,212,255,1);
+        width: 100%;
+    }
+}
+
 /* waiting below */
