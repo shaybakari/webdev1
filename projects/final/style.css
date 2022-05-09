@@ -4,7 +4,64 @@
     box-sizing: border-box;
 }
 
-nav, li{
-    text-decoration: none;
+body{
+    background-image: url(assets/11322021222222.jpg);
+    color: white;
+}
+
+nav{
+    background-color: rgba(0, 10, 54, 0.664);
+    display: inline-block;
+    padding: .5em;
+    position: absolute;
+    top: 0;
+    margin: 1rem;
+    font-family: 'VT323', monospace;
     
+}
+h1, h2{
+    max-width: 50%;
+    text-align: center;
+    margin: auto; 
+    font-family: 'Koulen', cursive;
+    padding: .5em;
+}
+main{
+   max-width: 50%;
+   text-align: center;
+   margin: auto; 
+   font-family: 'Koulen', cursive;
+}
+a{
+margin: 1em;
+color:rgba(0, 218, 255, 1);
+text-decoration: none;
+
+}
+
+a:hover{
+    color:aquamarine;
+}
+
+footer{
+    margin:auto;
+    text-align: center;
+    color:aliceblue;
+    background-color:rgba(0, 10, 54, 0.664);
+    font-family: 'VT323', monospace;
+    font-size: small;
+
+}
+h4{
+    margin: .5em;
+}
+#special{
+    margin:.5em;
+}
+
+#spacedog{
+    position: fixed;
+   bottom: 0;
+   right: 0;
+
 }
