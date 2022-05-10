@@ -16,19 +16,29 @@ border: 2px solid #000;
 }
 .items-row{
 margin: .5em;
+display: flex;
+flex-direction: row;
 }
 
 .items-col{
     flex-direction: column;
-    margin: .5em;    
+    margin: .5em;   
+    display: flex;
+    
 }
 
-#rows{
+#c1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#c2{
     display: flex;
     flex-direction: row;
 }
 
-#columns{
+#c3{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
