@@ -21,7 +21,7 @@ nav{
 h1{
     
     text-align: center;
-    margin: auto; 
+    margin: .5em; 
     font-family: 'Koulen', cursive;
     padding: .5em;
     color:antiquewhite;
@@ -42,6 +42,7 @@ h2{
 #about-box{
     background-color: rgba(0, 0, 0, 0.705);
     margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 main{ 
@@ -71,5 +72,7 @@ a:hover{
     max-width: 70%;
     margin-top: .75em;
 }
+
+
 
 
